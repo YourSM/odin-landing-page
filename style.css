@@ -12,6 +12,10 @@ body {
   flex: auto
 }
 
+.hero {
+  margin: 0px 120px;
+}
+
 .link {
   display: flex;
   align-items: center;
