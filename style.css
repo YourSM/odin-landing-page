@@ -45,7 +45,7 @@ h1 {
 }
 
 .image {
-  background-color: gray;
+  background-color: #69707e;
   justify-content: center;
   flex: 1;
   padding: 10px;
