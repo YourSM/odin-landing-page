@@ -10,8 +10,9 @@ button {
   background-color: #3882F6;
   color: #F9FAF8;
   border-radius: 8px;
-  width: 100px;
-  border: 0px
+  width: 120px;
+  border: 0px;
+  font-weight: bold;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 
 .header {
