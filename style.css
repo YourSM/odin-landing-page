@@ -75,14 +75,26 @@ h1 {
 
 .box-container {
   display: flex;
-  padding: 10px
+  padding: 10px;
+  padding-bottom: 0;
 }
 .box {
   border: #3882F6 solid;
   width: 120px;
   height: 120px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 0 20px;
+}
+
+.info-subtext {
+  display: flex;
+}
+
+.subtext {
+  width: 120px;
+  height: auto;
+  text-align: center;
+  margin: 5px 20px;
 }
 /* For second section: Similar to first, have an overall container,
 with flex and column. Then either a loose header or a container
