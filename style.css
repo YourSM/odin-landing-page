@@ -66,3 +66,16 @@ h1 {
   font-size: 18px;
   margin-top: 0
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* For second section: Similar to first, have an overall container,
+with flex and column. Then either a loose header or a container
+if needed for the header. Then a container holding the four boxes
+with flex row. Then loose paragraphs that should be in columns
+because of the parent flex column container. Just make sure
+it is outside of the container with the empty boxes (divs). */
