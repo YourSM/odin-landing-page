@@ -105,6 +105,29 @@ h1 {
   color: #1f2937;
   padding: 20px
 }
+
+.quotation {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  display: flex;
+}
+
+.quote-subtext {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quote,
+.quote-subtext {
+  width: 700px
+}
 /* For second section: Similar to first, have an overall container,
 with flex and column. Then either a loose header or a container
 if needed for the header. Then a container holding the four boxes
