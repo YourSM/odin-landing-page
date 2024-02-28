@@ -133,3 +133,13 @@ h1 {
 .quote-subtext {
   width: 700px
 }
+
+.call {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-container {
+  display: flex;
+  justify-content: center;
+}
