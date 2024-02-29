@@ -131,12 +131,17 @@ h1 {
 
 .quote,
 .quote-subtext {
-  width: 700px
+  width: 700px;
 }
 
 .call {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: #3882F6;
+  padding: 10px 100px;
+  margin: 50px;
+  border-radius: 6px;
 }
 
 .call-container {
