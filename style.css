@@ -136,7 +136,6 @@ h1 {
 
 .call {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   background-color: #3882F6;
   padding: 10px 100px;
@@ -147,4 +146,9 @@ h1 {
 .call-container {
   display: flex;
   justify-content: center;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
 }
