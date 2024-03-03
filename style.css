@@ -22,6 +22,15 @@ h1 {
   margin: 0;
 }
 
+footer {
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #F9FAF8
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
