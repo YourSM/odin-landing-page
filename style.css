@@ -34,12 +34,15 @@ footer {
 .header-container {
   display: flex;
   justify-content: center;
-  gap: 640px
+  gap: 608px;
+  background-color: #1f2937;
 }
 
 .header {
   display: flex;
   justify-content: center;
+  color: #F9FAF8;
+  font-size: 24px;
 }
 
 .hero {
