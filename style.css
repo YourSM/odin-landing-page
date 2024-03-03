@@ -65,7 +65,9 @@ h1 {
 
 .text {
   font-size: 18px;
-  margin-top: 0
+  margin-top: 0;
+  color: #E5E7EB
+  
 }
 
 .information {
@@ -152,6 +154,7 @@ h1 {
 .column-container {
   display: flex;
   flex-direction: column;
+  color: #F9FAF8;
 }
 
 .bordered-button {
@@ -164,4 +167,8 @@ h1 {
   display: flex;
   align-items: center;
   margin-left: 130px;
+}
+
+.call-header {
+  margin-bottom: 0;
 }
