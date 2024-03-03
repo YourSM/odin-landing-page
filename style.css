@@ -5,7 +5,8 @@ body {
   margin: 0;
 }
 
-button {
+button,
+.bordered-button {
   padding: 10px;
   background-color: #3882F6;
   color: #F9FAF8;
@@ -151,4 +152,16 @@ h1 {
 .column-container {
   display: flex;
   flex-direction: column;
+}
+
+.bordered-button {
+  border: 1px white solid;
+  height: fit-content;
+  padding: 5px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
 }
