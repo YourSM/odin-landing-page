@@ -52,6 +52,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 70px 0px 100px;
 }
 
 .link,
@@ -92,6 +93,7 @@ footer {
   align-items: center;
   flex: 1;
   justify-content: center;
+  padding-bottom: 70px;
 }
 
 .box-container {
@@ -134,6 +136,7 @@ footer {
   flex: 1;
   justify-content: center;
   align-items: center;
+  padding: 60px;
 }
 
 .quote-subtext {
@@ -169,6 +172,7 @@ footer {
   justify-content: center;
   flex: 1;
   align-items: center;
+  padding: 30px;
 }
 
 .column-container {
