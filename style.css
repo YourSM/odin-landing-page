@@ -34,7 +34,7 @@ footer {
 .header-container {
   display: flex;
   justify-content: center;
-  gap: 608px;
+  gap: 458px;
   background-color: #1f2937;
 }
 
@@ -65,19 +65,19 @@ footer {
 .image {
   background-color: #69707e;
   justify-content: center;
-  flex: 1;
-  padding: 10px;
+  height: 235px;
+  width: 510px;
 }
 
 .container {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .hero-body {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  width: 400px;
 }
 
 .text {
