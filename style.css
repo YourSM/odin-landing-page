@@ -135,12 +135,7 @@ footer {
 }
 
 .quotation {
-  display: flex;
-  flex-direction: column;
   background-color: #E5E7EB;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
   padding: 60px;
 }
 
