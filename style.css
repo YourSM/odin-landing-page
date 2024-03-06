@@ -31,9 +31,6 @@ h1 {
 
 footer {
   background: #1f2937;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 30px;
   color: #F9FAF8
 }
@@ -56,22 +53,16 @@ footer {
   background-color: #1f2937;
   color: #F9FAF8;
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 70px 0px 100px;
 }
 
 .link,
 .image {
-  display: flex;
-  align-items: center;
   color: #E5E7EB
 }
 
 .image {
   background-color: #69707e;
-  justify-content: center;
   width: 510px;
 }
 
@@ -90,8 +81,7 @@ footer {
 .text {
   font-size: 18px;
   margin-top: 0;
-  color: #E5E7EB
-  
+  color: #E5E7EB;
 }
 
 .information {
@@ -112,10 +102,6 @@ footer {
   height: 120px;
   border-radius: 10px;
   margin: 0 20px;
-}
-
-.info-subtext {
-  display: flex;
 }
 
 .subtext {
@@ -154,8 +140,6 @@ blockquote,
 }
 
 .call {
-  display: flex;
-  justify-content: center;
   background-color: #3882F6;
   padding: 15px 100px;
   margin: 50px;
@@ -185,4 +169,15 @@ blockquote,
 
 .call-header {
   margin-bottom: 0;
+}
+
+footer,
+.header-container,
+.hero,
+.image,
+.link,
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
