@@ -98,8 +98,6 @@ footer {
 
 .vertical-center {
   display: flex;
-  padding: 10px;
-  padding-bottom: 0;
   flex-direction: column;
   align-items: center;
 }
