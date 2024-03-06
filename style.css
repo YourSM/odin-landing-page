@@ -179,7 +179,6 @@ blockquote,
 
 .bordered-button {
   border: 1px white solid;
-  height: fit-content;
   padding: 5px;
 }
 
