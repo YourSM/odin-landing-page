@@ -5,6 +5,13 @@ body {
   margin: 0;
 }
 
+blockquote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  margin: 0;
+}
+
 button,
 .bordered-button {
   padding: 10px;
@@ -144,11 +151,6 @@ footer {
   font-size: 18px;
   color: #1f2937;
   margin: 0;
-}
-
-.quote {
-  font-size: 36px;
-  color: #1f2937;
 }
 
 .quote,
